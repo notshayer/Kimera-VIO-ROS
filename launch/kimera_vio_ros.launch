@@ -118,7 +118,7 @@
     <remap from="reinit_pose" to="reinit_pose"/>
 
     <!-- Remap publisher topics -->
-    <remap from="odometry"                       to="odometry"/>
+    <remap from="odometry"                       to="/camera/odom/sample"/>
     <remap from="resiliency"                     to="resiliency"/>
     <remap from="imu_bias"                       to="imu_bias"/>
     <remap from="optimized_trajectory"           to="optimized_trajectory"/>
